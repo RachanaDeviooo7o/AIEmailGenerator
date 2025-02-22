@@ -1,0 +1,6 @@
+Sentance-Transformers
+Uvicorn
+fastapi
+ipykernal
+langchain
+python-box
