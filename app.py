@@ -39,6 +39,7 @@ footer {visibility: hidden;}
 ._container_1upux_1 {visibility: hidden;}
 ._hostedName_1upux_12 {visibility: hidden;}
 }
+.css-1dp5vir {display: none;}  # Hide "Hosted with Streamlit" message
 </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
