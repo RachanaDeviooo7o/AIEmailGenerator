@@ -1,0 +1,4 @@
+Uvicorn
+fastapi
+langchain
+python-box
