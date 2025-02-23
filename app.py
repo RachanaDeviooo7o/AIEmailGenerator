@@ -26,9 +26,20 @@ def getLLMResponse(from_input,email_sender,email_recipient,email_style):
     # return response if isinstance(response.list) else response
     return response.content
 
+
+
 st.set_page_config(page_title="Generate Emails", page_icon="✉️",
                         layout="centered")
 st.header("Generate Emails")
+
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 
 
 from_input=st.text_area("Enter the email body here",height=275)
