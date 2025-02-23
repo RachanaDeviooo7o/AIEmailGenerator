@@ -36,6 +36,7 @@ hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
+._container_1upux_1 {visibility: hidden;}
 footer:after { content:'Copyright@ 2025:MKOnlineTools';
 display:block;
 position:relative;
