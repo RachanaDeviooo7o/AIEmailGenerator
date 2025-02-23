@@ -36,6 +36,13 @@ hide_streamlit_style = """
 <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
+footer:after { content:'Copyright@ 2025:MKOnlineTools';
+display:block;
+position:relative;
+color:tomato;
+padding:5px;
+top:2px;
+}
 </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
