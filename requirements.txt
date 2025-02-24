@@ -1,0 +1,7 @@
+Uvicorn
+fastapi
+langchain
+python-box
+langchain_groq
+langchain_community
+langchain_core
